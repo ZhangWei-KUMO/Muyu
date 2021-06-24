@@ -79,3 +79,5 @@ yarn add
 ## react-native-unimodules
 
 `react-native-unimodules`是React Native适配Expo库的一个重要组件，安装之后针对不同的系统对于配置文件也需要进行配置，详情请阅读[文档](https://docs.expo.io/bare/installing-unimodules/)
+
+## White Screen

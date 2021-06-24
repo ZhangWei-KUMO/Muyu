@@ -11,11 +11,6 @@
     "orientation": "portrait",
     "icon": "./resources/images/appstore.png",
     "scheme": "wengeyi",
-    "splash": {
-      "image": "./resources/images/splash.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -34,5 +29,7 @@
     }
   },
   "name": "Muyu",
-  "displayName": "Muyu"
+  "displayName": "摸鱼",
+  "icon": "./resources/images/appstore.png",
+  "scheme": "wengeyi",
 }
