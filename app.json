@@ -1,4 +1,11 @@
 {
-  "name": "AwesomeProject",
-  "displayName": "AwesomeProject"
+  "expo": {
+    "name": "Muyu",
+    "slug": "muyu",
+    "ios": {
+      "bundleIdentifier": "com.zwumark.muyu"
+    }
+  },
+  "name": "Muyu",
+  "displayName": "Muyu"
 }

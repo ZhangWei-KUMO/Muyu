@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/iOS-14.5-orange)
 ![](https://img.shields.io/badge/React-17.0.1-blue)
+![](https://img.shields.io/badge/node-12.13.1-blue)
 ![](https://img.shields.io/badge/ReactNative-v0.64.2-brightgreen)
 
 > 本教程文档基于MacOS系统，目前暂未完成，请各位大佬不要下载。
@@ -13,7 +14,7 @@ React Native一直以来宣称一次编译到处运行，但是事实上做过Re
 首先我们本地需要的基本开发工具为Node环境和监听系统文件变化的watchman（Metro打包器依赖于此）。
 
 ```bash
-# version 12 + 
+# version 12.13.1
 brew install node
 # Metro bundler
 brew install watchman

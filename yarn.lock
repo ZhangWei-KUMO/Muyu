@@ -285,7 +285,16 @@
   resolved "https://registry.nlark.com/@babel/parser/download/@babel/parser-7.14.7.tgz#6099720c8839ca865a2637e6c85852ead0bdb595"
   integrity sha1-YJlyDIg5yoZaJjfmyFhS6tC9tZU=
 
-"@babel/plugin-proposal-async-generator-functions@^7.12.13":
+"@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.nlark.com/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/download/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.14.5.tgz?cache=0&sync_timestamp=1623280386537&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-bugfix-v8-spread-parameters-in-optional-chaining%2Fdownload%2F%40babel%2Fplugin-bugfix-v8-spread-parameters-in-optional-chaining-7.14.5.tgz#4b467302e1548ed3b1be43beae2cc9cf45e0bb7e"
+  integrity sha1-S0ZzAuFUjtOxvkO+rizJz0Xgu34=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/helper-skip-transparent-expression-wrappers" "^7.14.5"
+    "@babel/plugin-proposal-optional-chaining" "^7.14.5"
+
+"@babel/plugin-proposal-async-generator-functions@^7.12.13", "@babel/plugin-proposal-async-generator-functions@^7.14.7":
   version "7.14.7"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-async-generator-functions/download/@babel/plugin-proposal-async-generator-functions-7.14.7.tgz#784a48c3d8ed073f65adcf30b57bcbf6c8119ace"
   integrity sha1-eEpIw9jtBz9lrc8wtXvL9sgRms4=
@@ -294,7 +303,7 @@
     "@babel/helper-remap-async-to-generator" "^7.14.5"
     "@babel/plugin-syntax-async-generators" "^7.8.4"
 
-"@babel/plugin-proposal-class-properties@^7.0.0", "@babel/plugin-proposal-class-properties@^7.1.0", "@babel/plugin-proposal-class-properties@^7.12.13":
+"@babel/plugin-proposal-class-properties@^7.0.0", "@babel/plugin-proposal-class-properties@^7.1.0", "@babel/plugin-proposal-class-properties@^7.12.13", "@babel/plugin-proposal-class-properties@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-class-properties/download/@babel/plugin-proposal-class-properties-7.14.5.tgz?cache=0&sync_timestamp=1623281011287&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-properties%2Fdownload%2F%40babel%2Fplugin-proposal-class-properties-7.14.5.tgz#40d1ee140c5b1e31a350f4f5eed945096559b42e"
   integrity sha1-QNHuFAxbHjGjUPT17tlFCWVZtC4=
@@ -310,7 +319,25 @@
     "@babel/helper-create-class-features-plugin" "^7.12.13"
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-proposal-dynamic-import@^7.12.17":
+"@babel/plugin-proposal-class-static-block@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-class-static-block/download/@babel/plugin-proposal-class-static-block-7.14.5.tgz?cache=0&sync_timestamp=1623280411252&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-static-block%2Fdownload%2F%40babel%2Fplugin-proposal-class-static-block-7.14.5.tgz#158e9e10d449c3849ef3ecde94a03d9f1841b681"
+  integrity sha1-FY6eENRJw4Se8+zelKA9nxhBtoE=
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.14.5"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/plugin-syntax-class-static-block" "^7.14.5"
+
+"@babel/plugin-proposal-decorators@^7.6.0":
+  version "7.14.5"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-decorators/download/@babel/plugin-proposal-decorators-7.14.5.tgz?cache=0&sync_timestamp=1623280416062&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-decorators%2Fdownload%2F%40babel%2Fplugin-proposal-decorators-7.14.5.tgz#59bc4dfc1d665b5a6749cf798ff42297ed1b2c1d"
+  integrity sha1-WbxN/B1mW1pnSc95j/Qil+0bLB0=
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.14.5"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/plugin-syntax-decorators" "^7.14.5"
+
+"@babel/plugin-proposal-dynamic-import@^7.12.17", "@babel/plugin-proposal-dynamic-import@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-dynamic-import/download/@babel/plugin-proposal-dynamic-import-7.14.5.tgz#0c6617df461c0c1f8fff3b47cd59772360101d2c"
   integrity sha1-DGYX30YcDB+P/ztHzVl3I2AQHSw=
@@ -326,7 +353,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-export-default-from" "^7.14.5"
 
-"@babel/plugin-proposal-export-namespace-from@^7.12.13":
+"@babel/plugin-proposal-export-namespace-from@^7.12.13", "@babel/plugin-proposal-export-namespace-from@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-export-namespace-from/download/@babel/plugin-proposal-export-namespace-from-7.14.5.tgz#dbad244310ce6ccd083072167d8cea83a52faf76"
   integrity sha1-260kQxDObM0IMHIWfYzqg6Uvr3Y=
@@ -334,7 +361,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-export-namespace-from" "^7.8.3"
 
-"@babel/plugin-proposal-json-strings@^7.12.13":
+"@babel/plugin-proposal-json-strings@^7.12.13", "@babel/plugin-proposal-json-strings@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-json-strings/download/@babel/plugin-proposal-json-strings-7.14.5.tgz#38de60db362e83a3d8c944ac858ddf9f0c2239eb"
   integrity sha1-ON5g2zYug6PYyUSshY3fnwwiOes=
@@ -342,7 +369,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-json-strings" "^7.8.3"
 
-"@babel/plugin-proposal-logical-assignment-operators@^7.12.13":
+"@babel/plugin-proposal-logical-assignment-operators@^7.12.13", "@babel/plugin-proposal-logical-assignment-operators@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-logical-assignment-operators/download/@babel/plugin-proposal-logical-assignment-operators-7.14.5.tgz?cache=0&sync_timestamp=1623280419692&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-logical-assignment-operators%2Fdownload%2F%40babel%2Fplugin-proposal-logical-assignment-operators-7.14.5.tgz#6e6229c2a99b02ab2915f82571e0cc646a40c738"
   integrity sha1-bmIpwqmbAqspFfglceDMZGpAxzg=
@@ -350,7 +377,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-logical-assignment-operators" "^7.10.4"
 
-"@babel/plugin-proposal-nullish-coalescing-operator@^7.0.0", "@babel/plugin-proposal-nullish-coalescing-operator@^7.1.0", "@babel/plugin-proposal-nullish-coalescing-operator@^7.12.13":
+"@babel/plugin-proposal-nullish-coalescing-operator@^7.0.0", "@babel/plugin-proposal-nullish-coalescing-operator@^7.1.0", "@babel/plugin-proposal-nullish-coalescing-operator@^7.12.13", "@babel/plugin-proposal-nullish-coalescing-operator@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-nullish-coalescing-operator/download/@babel/plugin-proposal-nullish-coalescing-operator-7.14.5.tgz#ee38589ce00e2cc59b299ec3ea406fcd3a0fdaf6"
   integrity sha1-7jhYnOAOLMWbKZ7D6kBvzToP2vY=
@@ -358,7 +385,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
 
-"@babel/plugin-proposal-numeric-separator@^7.12.13":
+"@babel/plugin-proposal-numeric-separator@^7.12.13", "@babel/plugin-proposal-numeric-separator@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-numeric-separator/download/@babel/plugin-proposal-numeric-separator-7.14.5.tgz#83631bf33d9a51df184c2102a069ac0c58c05f18"
   integrity sha1-g2Mb8z2aUd8YTCECoGmsDFjAXxg=
@@ -366,7 +393,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-numeric-separator" "^7.10.4"
 
-"@babel/plugin-proposal-object-rest-spread@^7.0.0", "@babel/plugin-proposal-object-rest-spread@^7.12.13":
+"@babel/plugin-proposal-object-rest-spread@^7.0.0", "@babel/plugin-proposal-object-rest-spread@^7.12.13", "@babel/plugin-proposal-object-rest-spread@^7.14.7":
   version "7.14.7"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-object-rest-spread/download/@babel/plugin-proposal-object-rest-spread-7.14.7.tgz#5920a2b3df7f7901df0205974c0641b13fd9d363"
   integrity sha1-WSCis99/eQHfAgWXTAZBsT/Z02M=
@@ -377,7 +404,7 @@
     "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
     "@babel/plugin-transform-parameters" "^7.14.5"
 
-"@babel/plugin-proposal-optional-catch-binding@^7.0.0", "@babel/plugin-proposal-optional-catch-binding@^7.12.13":
+"@babel/plugin-proposal-optional-catch-binding@^7.0.0", "@babel/plugin-proposal-optional-catch-binding@^7.12.13", "@babel/plugin-proposal-optional-catch-binding@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-catch-binding/download/@babel/plugin-proposal-optional-catch-binding-7.14.5.tgz#939dd6eddeff3a67fdf7b3f044b5347262598c3c"
   integrity sha1-k53W7d7/Omf997PwRLU0cmJZjDw=
@@ -385,7 +412,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
 
-"@babel/plugin-proposal-optional-chaining@^7.0.0", "@babel/plugin-proposal-optional-chaining@^7.1.0", "@babel/plugin-proposal-optional-chaining@^7.12.17":
+"@babel/plugin-proposal-optional-chaining@^7.0.0", "@babel/plugin-proposal-optional-chaining@^7.1.0", "@babel/plugin-proposal-optional-chaining@^7.12.17", "@babel/plugin-proposal-optional-chaining@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-chaining/download/@babel/plugin-proposal-optional-chaining-7.14.5.tgz#fa83651e60a360e3f13797eef00b8d519695b603"
   integrity sha1-+oNlHmCjYOPxN5fu8AuNUZaVtgM=
@@ -394,7 +421,7 @@
     "@babel/helper-skip-transparent-expression-wrappers" "^7.14.5"
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
 
-"@babel/plugin-proposal-private-methods@^7.12.13":
+"@babel/plugin-proposal-private-methods@^7.12.13", "@babel/plugin-proposal-private-methods@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-private-methods/download/@babel/plugin-proposal-private-methods-7.14.5.tgz?cache=0&sync_timestamp=1623280416204&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-private-methods%2Fdownload%2F%40babel%2Fplugin-proposal-private-methods-7.14.5.tgz#37446495996b2945f30f5be5b60d5e2aa4f5792d"
   integrity sha1-N0RklZlrKUXzD1vltg1eKqT1eS0=
@@ -402,7 +429,17 @@
     "@babel/helper-create-class-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-proposal-unicode-property-regex@^7.12.13", "@babel/plugin-proposal-unicode-property-regex@^7.4.4":
+"@babel/plugin-proposal-private-property-in-object@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-private-property-in-object/download/@babel/plugin-proposal-private-property-in-object-7.14.5.tgz?cache=0&sync_timestamp=1623280416058&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-private-property-in-object%2Fdownload%2F%40babel%2Fplugin-proposal-private-property-in-object-7.14.5.tgz#9f65a4d0493a940b4c01f8aa9d3f1894a587f636"
+  integrity sha1-n2Wk0Ek6lAtMAfiqnT8YlKWH9jY=
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.14.5"
+    "@babel/helper-create-class-features-plugin" "^7.14.5"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
+
+"@babel/plugin-proposal-unicode-property-regex@^7.12.13", "@babel/plugin-proposal-unicode-property-regex@^7.14.5", "@babel/plugin-proposal-unicode-property-regex@^7.4.4":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-proposal-unicode-property-regex/download/@babel/plugin-proposal-unicode-property-regex-7.14.5.tgz?cache=0&sync_timestamp=1623280385924&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-unicode-property-regex%2Fdownload%2F%40babel%2Fplugin-proposal-unicode-property-regex-7.14.5.tgz#0f95ee0e757a5d647f378daa0eca7e93faa8bbe8"
   integrity sha1-D5XuDnV6XWR/N42qDsp+k/qou+g=
@@ -430,6 +467,20 @@
   integrity sha1-tcmHJ0xKOoK4lxR5aTGmtTVErhA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
+
+"@babel/plugin-syntax-class-static-block@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-class-static-block/download/@babel/plugin-syntax-class-static-block-7.14.5.tgz?cache=0&sync_timestamp=1623280420297&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-class-static-block%2Fdownload%2F%40babel%2Fplugin-syntax-class-static-block-7.14.5.tgz#195df89b146b4b78b3bf897fd7a257c84659d406"
+  integrity sha1-GV34mxRrS3izv4l/16JXyEZZ1AY=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-syntax-decorators@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-decorators/download/@babel/plugin-syntax-decorators-7.14.5.tgz?cache=0&sync_timestamp=1623280421117&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-decorators%2Fdownload%2F%40babel%2Fplugin-syntax-decorators-7.14.5.tgz#eafb9c0cbe09c8afeb964ba3a7bbd63945a72f20"
+  integrity sha1-6vucDL4JyK/rlkujp7vWOUWnLyA=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-dynamic-import@^7.0.0", "@babel/plugin-syntax-dynamic-import@^7.8.0", "@babel/plugin-syntax-dynamic-import@^7.8.3":
   version "7.8.3"
@@ -522,7 +573,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-top-level-await@^7.12.13", "@babel/plugin-syntax-top-level-await@^7.8.3":
+"@babel/plugin-syntax-private-property-in-object@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-private-property-in-object/download/@babel/plugin-syntax-private-property-in-object-7.14.5.tgz#0dc6671ec0ea22b6e94a1114f857970cd39de1ad"
+  integrity sha1-DcZnHsDqIrbpShEU+FeXDNOd4a0=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-syntax-top-level-await@^7.12.13", "@babel/plugin-syntax-top-level-await@^7.14.5", "@babel/plugin-syntax-top-level-await@^7.8.3":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-syntax-top-level-await/download/@babel/plugin-syntax-top-level-await-7.14.5.tgz?cache=0&sync_timestamp=1623280427172&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-top-level-await%2Fdownload%2F%40babel%2Fplugin-syntax-top-level-await-7.14.5.tgz#c1cfdadc35a646240001f06138247b741c34d94c"
   integrity sha1-wc/a3DWmRiQAAfBhOCR7dBw02Uw=
@@ -536,14 +594,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-arrow-functions@^7.0.0", "@babel/plugin-transform-arrow-functions@^7.12.13":
+"@babel/plugin-transform-arrow-functions@^7.0.0", "@babel/plugin-transform-arrow-functions@^7.12.13", "@babel/plugin-transform-arrow-functions@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-arrow-functions/download/@babel/plugin-transform-arrow-functions-7.14.5.tgz#f7187d9588a768dd080bf4c9ffe117ea62f7862a"
   integrity sha1-9xh9lYinaN0IC/TJ/+EX6mL3hio=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-async-to-generator@^7.12.13":
+"@babel/plugin-transform-async-to-generator@^7.12.13", "@babel/plugin-transform-async-to-generator@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-async-to-generator/download/@babel/plugin-transform-async-to-generator-7.14.5.tgz?cache=0&sync_timestamp=1623280415969&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-async-to-generator%2Fdownload%2F%40babel%2Fplugin-transform-async-to-generator-7.14.5.tgz#72c789084d8f2094acb945633943ef8443d39e67"
   integrity sha1-cseJCE2PIJSsuUVjOUPvhEPTnmc=
@@ -552,21 +610,21 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-remap-async-to-generator" "^7.14.5"
 
-"@babel/plugin-transform-block-scoped-functions@^7.0.0", "@babel/plugin-transform-block-scoped-functions@^7.12.13":
+"@babel/plugin-transform-block-scoped-functions@^7.0.0", "@babel/plugin-transform-block-scoped-functions@^7.12.13", "@babel/plugin-transform-block-scoped-functions@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-block-scoped-functions/download/@babel/plugin-transform-block-scoped-functions-7.14.5.tgz#e48641d999d4bc157a67ef336aeb54bc44fd3ad4"
   integrity sha1-5IZB2ZnUvBV6Z+8zautUvET9OtQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-block-scoping@^7.0.0", "@babel/plugin-transform-block-scoping@^7.12.13":
+"@babel/plugin-transform-block-scoping@^7.0.0", "@babel/plugin-transform-block-scoping@^7.12.13", "@babel/plugin-transform-block-scoping@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-block-scoping/download/@babel/plugin-transform-block-scoping-7.14.5.tgz#8cc63e61e50f42e078e6f09be775a75f23ef9939"
   integrity sha1-jMY+YeUPQuB45vCb53WnXyPvmTk=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-classes@^7.0.0", "@babel/plugin-transform-classes@^7.12.13":
+"@babel/plugin-transform-classes@^7.0.0", "@babel/plugin-transform-classes@^7.12.13", "@babel/plugin-transform-classes@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-classes/download/@babel/plugin-transform-classes-7.14.5.tgz?cache=0&sync_timestamp=1623281007280&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-classes%2Fdownload%2F%40babel%2Fplugin-transform-classes-7.14.5.tgz#0e98e82097b38550b03b483f9b51a78de0acb2cf"
   integrity sha1-DpjoIJezhVCwO0g/m1GnjeCsss8=
@@ -579,21 +637,21 @@
     "@babel/helper-split-export-declaration" "^7.14.5"
     globals "^11.1.0"
 
-"@babel/plugin-transform-computed-properties@^7.0.0", "@babel/plugin-transform-computed-properties@^7.12.13":
+"@babel/plugin-transform-computed-properties@^7.0.0", "@babel/plugin-transform-computed-properties@^7.12.13", "@babel/plugin-transform-computed-properties@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-computed-properties/download/@babel/plugin-transform-computed-properties-7.14.5.tgz#1b9d78987420d11223d41195461cc43b974b204f"
   integrity sha1-G514mHQg0RIj1BGVRhzEO5dLIE8=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-destructuring@^7.0.0", "@babel/plugin-transform-destructuring@^7.12.13":
+"@babel/plugin-transform-destructuring@^7.0.0", "@babel/plugin-transform-destructuring@^7.12.13", "@babel/plugin-transform-destructuring@^7.14.7":
   version "7.14.7"
   resolved "https://registry.nlark.com/@babel/plugin-transform-destructuring/download/@babel/plugin-transform-destructuring-7.14.7.tgz#0ad58ed37e23e22084d109f185260835e5557576"
   integrity sha1-CtWO034j4iCE0QnxhSYINeVVdXY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-dotall-regex@^7.12.13", "@babel/plugin-transform-dotall-regex@^7.4.4":
+"@babel/plugin-transform-dotall-regex@^7.12.13", "@babel/plugin-transform-dotall-regex@^7.14.5", "@babel/plugin-transform-dotall-regex@^7.4.4":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-dotall-regex/download/@babel/plugin-transform-dotall-regex-7.14.5.tgz?cache=0&sync_timestamp=1623280386290&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-dotall-regex%2Fdownload%2F%40babel%2Fplugin-transform-dotall-regex-7.14.5.tgz#2f6bf76e46bdf8043b4e7e16cf24532629ba0c7a"
   integrity sha1-L2v3bka9+AQ7Tn4WzyRTJim6DHo=
@@ -601,14 +659,14 @@
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-duplicate-keys@^7.12.13":
+"@babel/plugin-transform-duplicate-keys@^7.12.13", "@babel/plugin-transform-duplicate-keys@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-duplicate-keys/download/@babel/plugin-transform-duplicate-keys-7.14.5.tgz#365a4844881bdf1501e3a9f0270e7f0f91177954"
   integrity sha1-NlpIRIgb3xUB46nwJw5/D5EXeVQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-exponentiation-operator@^7.0.0", "@babel/plugin-transform-exponentiation-operator@^7.12.13":
+"@babel/plugin-transform-exponentiation-operator@^7.0.0", "@babel/plugin-transform-exponentiation-operator@^7.12.13", "@babel/plugin-transform-exponentiation-operator@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-exponentiation-operator/download/@babel/plugin-transform-exponentiation-operator-7.14.5.tgz#5154b8dd6a3dfe6d90923d61724bd3deeb90b493"
   integrity sha1-UVS43Wo9/m2Qkj1hckvT3uuQtJM=
@@ -624,14 +682,14 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-flow" "^7.14.5"
 
-"@babel/plugin-transform-for-of@^7.0.0", "@babel/plugin-transform-for-of@^7.12.13":
+"@babel/plugin-transform-for-of@^7.0.0", "@babel/plugin-transform-for-of@^7.12.13", "@babel/plugin-transform-for-of@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-for-of/download/@babel/plugin-transform-for-of-7.14.5.tgz#dae384613de8f77c196a8869cbf602a44f7fc0eb"
   integrity sha1-2uOEYT3o93wZaohpy/YCpE9/wOs=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-function-name@^7.0.0", "@babel/plugin-transform-function-name@^7.12.13":
+"@babel/plugin-transform-function-name@^7.0.0", "@babel/plugin-transform-function-name@^7.12.13", "@babel/plugin-transform-function-name@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-function-name/download/@babel/plugin-transform-function-name-7.14.5.tgz#e81c65ecb900746d7f31802f6bed1f52d915d6f2"
   integrity sha1-6Bxl7LkAdG1/MYAva+0fUtkV1vI=
@@ -639,21 +697,21 @@
     "@babel/helper-function-name" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-literals@^7.0.0", "@babel/plugin-transform-literals@^7.12.13":
+"@babel/plugin-transform-literals@^7.0.0", "@babel/plugin-transform-literals@^7.12.13", "@babel/plugin-transform-literals@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-literals/download/@babel/plugin-transform-literals-7.14.5.tgz?cache=0&sync_timestamp=1623280340946&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-literals%2Fdownload%2F%40babel%2Fplugin-transform-literals-7.14.5.tgz#41d06c7ff5d4d09e3cf4587bd3ecf3930c730f78"
   integrity sha1-QdBsf/XU0J489Fh70+zzkwxzD3g=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-member-expression-literals@^7.0.0", "@babel/plugin-transform-member-expression-literals@^7.12.13":
+"@babel/plugin-transform-member-expression-literals@^7.0.0", "@babel/plugin-transform-member-expression-literals@^7.12.13", "@babel/plugin-transform-member-expression-literals@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-member-expression-literals/download/@babel/plugin-transform-member-expression-literals-7.14.5.tgz?cache=0&sync_timestamp=1623280341518&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-member-expression-literals%2Fdownload%2F%40babel%2Fplugin-transform-member-expression-literals-7.14.5.tgz#b39cd5212a2bf235a617d320ec2b48bcc091b8a7"
   integrity sha1-s5zVISor8jWmF9Mg7CtIvMCRuKc=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-modules-amd@^7.12.13":
+"@babel/plugin-transform-modules-amd@^7.12.13", "@babel/plugin-transform-modules-amd@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-modules-amd/download/@babel/plugin-transform-modules-amd-7.14.5.tgz?cache=0&sync_timestamp=1623280416173&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-amd%2Fdownload%2F%40babel%2Fplugin-transform-modules-amd-7.14.5.tgz#4fd9ce7e3411cb8b83848480b7041d83004858f7"
   integrity sha1-T9nOfjQRy4uDhISAtwQdgwBIWPc=
@@ -662,7 +720,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     babel-plugin-dynamic-import-node "^2.3.3"
 
-"@babel/plugin-transform-modules-commonjs@^7.0.0", "@babel/plugin-transform-modules-commonjs@^7.1.0", "@babel/plugin-transform-modules-commonjs@^7.12.13":
+"@babel/plugin-transform-modules-commonjs@^7.0.0", "@babel/plugin-transform-modules-commonjs@^7.1.0", "@babel/plugin-transform-modules-commonjs@^7.12.13", "@babel/plugin-transform-modules-commonjs@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-modules-commonjs/download/@babel/plugin-transform-modules-commonjs-7.14.5.tgz?cache=0&sync_timestamp=1623281021067&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-commonjs%2Fdownload%2F%40babel%2Fplugin-transform-modules-commonjs-7.14.5.tgz#7aaee0ea98283de94da98b28f8c35701429dad97"
   integrity sha1-eq7g6pgoPelNqYso+MNXAUKdrZc=
@@ -672,7 +730,7 @@
     "@babel/helper-simple-access" "^7.14.5"
     babel-plugin-dynamic-import-node "^2.3.3"
 
-"@babel/plugin-transform-modules-systemjs@^7.12.13":
+"@babel/plugin-transform-modules-systemjs@^7.12.13", "@babel/plugin-transform-modules-systemjs@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-modules-systemjs/download/@babel/plugin-transform-modules-systemjs-7.14.5.tgz?cache=0&sync_timestamp=1623280420500&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-systemjs%2Fdownload%2F%40babel%2Fplugin-transform-modules-systemjs-7.14.5.tgz#c75342ef8b30dcde4295d3401aae24e65638ed29"
   integrity sha1-x1NC74sw3N5CldNAGq4k5lY47Sk=
@@ -683,7 +741,7 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     babel-plugin-dynamic-import-node "^2.3.3"
 
-"@babel/plugin-transform-modules-umd@^7.12.13":
+"@babel/plugin-transform-modules-umd@^7.12.13", "@babel/plugin-transform-modules-umd@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-modules-umd/download/@babel/plugin-transform-modules-umd-7.14.5.tgz?cache=0&sync_timestamp=1623280420892&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-umd%2Fdownload%2F%40babel%2Fplugin-transform-modules-umd-7.14.5.tgz#fb662dfee697cce274a7cda525190a79096aa6e0"
   integrity sha1-+2Yt/uaXzOJ0p82lJRkKeQlqpuA=
@@ -691,14 +749,14 @@
     "@babel/helper-module-transforms" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-named-capturing-groups-regex@^7.12.13":
+"@babel/plugin-transform-named-capturing-groups-regex@^7.12.13", "@babel/plugin-transform-named-capturing-groups-regex@^7.14.7":
   version "7.14.7"
   resolved "https://registry.nlark.com/@babel/plugin-transform-named-capturing-groups-regex/download/@babel/plugin-transform-named-capturing-groups-regex-7.14.7.tgz#60c06892acf9df231e256c24464bfecb0908fd4e"
   integrity sha1-YMBokqz53yMeJWwkRkv+ywkI/U4=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
 
-"@babel/plugin-transform-new-target@^7.12.13":
+"@babel/plugin-transform-new-target@^7.12.13", "@babel/plugin-transform-new-target@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-new-target/download/@babel/plugin-transform-new-target-7.14.5.tgz?cache=0&sync_timestamp=1623280340922&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-new-target%2Fdownload%2F%40babel%2Fplugin-transform-new-target-7.14.5.tgz#31bdae8b925dc84076ebfcd2a9940143aed7dbf8"
   integrity sha1-Mb2ui5JdyEB26/zSqZQBQ67X2/g=
@@ -712,7 +770,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-object-super@^7.0.0", "@babel/plugin-transform-object-super@^7.12.13":
+"@babel/plugin-transform-object-super@^7.0.0", "@babel/plugin-transform-object-super@^7.12.13", "@babel/plugin-transform-object-super@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-object-super/download/@babel/plugin-transform-object-super-7.14.5.tgz?cache=0&sync_timestamp=1623280405923&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-object-super%2Fdownload%2F%40babel%2Fplugin-transform-object-super-7.14.5.tgz#d0b5faeac9e98597a161a9cf78c527ed934cdc45"
   integrity sha1-0LX66snphZehYanPeMUn7ZNM3EU=
@@ -727,7 +785,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-property-literals@^7.0.0", "@babel/plugin-transform-property-literals@^7.12.13":
+"@babel/plugin-transform-property-literals@^7.0.0", "@babel/plugin-transform-property-literals@^7.12.13", "@babel/plugin-transform-property-literals@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-property-literals/download/@babel/plugin-transform-property-literals-7.14.5.tgz?cache=0&sync_timestamp=1623280340973&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-property-literals%2Fdownload%2F%40babel%2Fplugin-transform-property-literals-7.14.5.tgz#0ddbaa1f83db3606f1cdf4846fa1dfb473458b34"
   integrity sha1-DduqH4PbNgbxzfSEb6HftHNFizQ=
@@ -766,14 +824,14 @@
     "@babel/plugin-syntax-jsx" "^7.14.5"
     "@babel/types" "^7.14.5"
 
-"@babel/plugin-transform-regenerator@^7.0.0", "@babel/plugin-transform-regenerator@^7.12.13":
+"@babel/plugin-transform-regenerator@^7.0.0", "@babel/plugin-transform-regenerator@^7.12.13", "@babel/plugin-transform-regenerator@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-regenerator/download/@babel/plugin-transform-regenerator-7.14.5.tgz#9676fd5707ed28f522727c5b3c0aa8544440b04f"
   integrity sha1-lnb9VwftKPUicnxbPAqoVERAsE8=
   dependencies:
     regenerator-transform "^0.14.2"
 
-"@babel/plugin-transform-reserved-words@^7.12.13":
+"@babel/plugin-transform-reserved-words@^7.12.13", "@babel/plugin-transform-reserved-words@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-reserved-words/download/@babel/plugin-transform-reserved-words-7.14.5.tgz?cache=0&sync_timestamp=1623280351577&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-reserved-words%2Fdownload%2F%40babel%2Fplugin-transform-reserved-words-7.14.5.tgz#c44589b661cfdbef8d4300dcc7469dffa92f8304"
   integrity sha1-xEWJtmHP2++NQwDcx0ad/6kvgwQ=
@@ -792,14 +850,14 @@
     babel-plugin-polyfill-regenerator "^0.2.2"
     semver "^6.3.0"
 
-"@babel/plugin-transform-shorthand-properties@^7.0.0", "@babel/plugin-transform-shorthand-properties@^7.12.13":
+"@babel/plugin-transform-shorthand-properties@^7.0.0", "@babel/plugin-transform-shorthand-properties@^7.12.13", "@babel/plugin-transform-shorthand-properties@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-shorthand-properties/download/@babel/plugin-transform-shorthand-properties-7.14.5.tgz?cache=0&sync_timestamp=1623280351390&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-shorthand-properties%2Fdownload%2F%40babel%2Fplugin-transform-shorthand-properties-7.14.5.tgz#97f13855f1409338d8cadcbaca670ad79e091a58"
   integrity sha1-l/E4VfFAkzjYyty6ymcK154JGlg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-spread@^7.0.0", "@babel/plugin-transform-spread@^7.12.13":
+"@babel/plugin-transform-spread@^7.0.0", "@babel/plugin-transform-spread@^7.12.13", "@babel/plugin-transform-spread@^7.14.6":
   version "7.14.6"
   resolved "https://registry.nlark.com/@babel/plugin-transform-spread/download/@babel/plugin-transform-spread-7.14.6.tgz#6bd40e57fe7de94aa904851963b5616652f73144"
   integrity sha1-a9QOV/596UqpBIUZY7VhZlL3MUQ=
@@ -807,21 +865,21 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.14.5"
 
-"@babel/plugin-transform-sticky-regex@^7.0.0", "@babel/plugin-transform-sticky-regex@^7.12.13":
+"@babel/plugin-transform-sticky-regex@^7.0.0", "@babel/plugin-transform-sticky-regex@^7.12.13", "@babel/plugin-transform-sticky-regex@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-sticky-regex/download/@babel/plugin-transform-sticky-regex-7.14.5.tgz?cache=0&sync_timestamp=1623280350911&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-sticky-regex%2Fdownload%2F%40babel%2Fplugin-transform-sticky-regex-7.14.5.tgz#5b617542675e8b7761294381f3c28c633f40aeb9"
   integrity sha1-W2F1Qmdei3dhKUOB88KMYz9Arrk=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-template-literals@^7.0.0", "@babel/plugin-transform-template-literals@^7.12.13":
+"@babel/plugin-transform-template-literals@^7.0.0", "@babel/plugin-transform-template-literals@^7.12.13", "@babel/plugin-transform-template-literals@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-template-literals/download/@babel/plugin-transform-template-literals-7.14.5.tgz?cache=0&sync_timestamp=1623280350943&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-template-literals%2Fdownload%2F%40babel%2Fplugin-transform-template-literals-7.14.5.tgz#a5f2bc233937d8453885dc736bdd8d9ffabf3d93"
   integrity sha1-pfK8Izk32EU4hdxza92Nn/q/PZM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-typeof-symbol@^7.12.13":
+"@babel/plugin-transform-typeof-symbol@^7.12.13", "@babel/plugin-transform-typeof-symbol@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-typeof-symbol/download/@babel/plugin-transform-typeof-symbol-7.14.5.tgz#39af2739e989a2bd291bf6b53f16981423d457d4"
   integrity sha1-Oa8nOemJor0pG/a1PxaYFCPUV9Q=
@@ -837,20 +895,99 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-typescript" "^7.14.5"
 
-"@babel/plugin-transform-unicode-escapes@^7.12.13":
+"@babel/plugin-transform-unicode-escapes@^7.12.13", "@babel/plugin-transform-unicode-escapes@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-unicode-escapes/download/@babel/plugin-transform-unicode-escapes-7.14.5.tgz?cache=0&sync_timestamp=1623280350966&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-unicode-escapes%2Fdownload%2F%40babel%2Fplugin-transform-unicode-escapes-7.14.5.tgz#9d4bd2a681e3c5d7acf4f57fa9e51175d91d0c6b"
   integrity sha1-nUvSpoHjxdes9PV/qeURddkdDGs=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-unicode-regex@^7.0.0", "@babel/plugin-transform-unicode-regex@^7.12.13":
+"@babel/plugin-transform-unicode-regex@^7.0.0", "@babel/plugin-transform-unicode-regex@^7.12.13", "@babel/plugin-transform-unicode-regex@^7.14.5":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/plugin-transform-unicode-regex/download/@babel/plugin-transform-unicode-regex-7.14.5.tgz#4cd09b6c8425dd81255c7ceb3fb1836e7414382e"
   integrity sha1-TNCbbIQl3YElXHzrP7GDbnQUOC4=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/preset-env@^7.6.3":
+  version "7.14.7"
+  resolved "https://registry.nlark.com/@babel/preset-env/download/@babel/preset-env-7.14.7.tgz#5c70b22d4c2d893b03d8c886a5c17422502b932a"
+  integrity sha1-XHCyLUwtiTsD2MiGpcF0IlArkyo=
+  dependencies:
+    "@babel/compat-data" "^7.14.7"
+    "@babel/helper-compilation-targets" "^7.14.5"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/helper-validator-option" "^7.14.5"
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.14.5"
+    "@babel/plugin-proposal-async-generator-functions" "^7.14.7"
+    "@babel/plugin-proposal-class-properties" "^7.14.5"
+    "@babel/plugin-proposal-class-static-block" "^7.14.5"
+    "@babel/plugin-proposal-dynamic-import" "^7.14.5"
+    "@babel/plugin-proposal-export-namespace-from" "^7.14.5"
+    "@babel/plugin-proposal-json-strings" "^7.14.5"
+    "@babel/plugin-proposal-logical-assignment-operators" "^7.14.5"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
+    "@babel/plugin-proposal-numeric-separator" "^7.14.5"
+    "@babel/plugin-proposal-object-rest-spread" "^7.14.7"
+    "@babel/plugin-proposal-optional-catch-binding" "^7.14.5"
+    "@babel/plugin-proposal-optional-chaining" "^7.14.5"
+    "@babel/plugin-proposal-private-methods" "^7.14.5"
+    "@babel/plugin-proposal-private-property-in-object" "^7.14.5"
+    "@babel/plugin-proposal-unicode-property-regex" "^7.14.5"
+    "@babel/plugin-syntax-async-generators" "^7.8.4"
+    "@babel/plugin-syntax-class-properties" "^7.12.13"
+    "@babel/plugin-syntax-class-static-block" "^7.14.5"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@babel/plugin-syntax-export-namespace-from" "^7.8.3"
+    "@babel/plugin-syntax-json-strings" "^7.8.3"
+    "@babel/plugin-syntax-logical-assignment-operators" "^7.10.4"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
+    "@babel/plugin-syntax-numeric-separator" "^7.10.4"
+    "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
+    "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
+    "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
+    "@babel/plugin-syntax-top-level-await" "^7.14.5"
+    "@babel/plugin-transform-arrow-functions" "^7.14.5"
+    "@babel/plugin-transform-async-to-generator" "^7.14.5"
+    "@babel/plugin-transform-block-scoped-functions" "^7.14.5"
+    "@babel/plugin-transform-block-scoping" "^7.14.5"
+    "@babel/plugin-transform-classes" "^7.14.5"
+    "@babel/plugin-transform-computed-properties" "^7.14.5"
+    "@babel/plugin-transform-destructuring" "^7.14.7"
+    "@babel/plugin-transform-dotall-regex" "^7.14.5"
+    "@babel/plugin-transform-duplicate-keys" "^7.14.5"
+    "@babel/plugin-transform-exponentiation-operator" "^7.14.5"
+    "@babel/plugin-transform-for-of" "^7.14.5"
+    "@babel/plugin-transform-function-name" "^7.14.5"
+    "@babel/plugin-transform-literals" "^7.14.5"
+    "@babel/plugin-transform-member-expression-literals" "^7.14.5"
+    "@babel/plugin-transform-modules-amd" "^7.14.5"
+    "@babel/plugin-transform-modules-commonjs" "^7.14.5"
+    "@babel/plugin-transform-modules-systemjs" "^7.14.5"
+    "@babel/plugin-transform-modules-umd" "^7.14.5"
+    "@babel/plugin-transform-named-capturing-groups-regex" "^7.14.7"
+    "@babel/plugin-transform-new-target" "^7.14.5"
+    "@babel/plugin-transform-object-super" "^7.14.5"
+    "@babel/plugin-transform-parameters" "^7.14.5"
+    "@babel/plugin-transform-property-literals" "^7.14.5"
+    "@babel/plugin-transform-regenerator" "^7.14.5"
+    "@babel/plugin-transform-reserved-words" "^7.14.5"
+    "@babel/plugin-transform-shorthand-properties" "^7.14.5"
+    "@babel/plugin-transform-spread" "^7.14.6"
+    "@babel/plugin-transform-sticky-regex" "^7.14.5"
+    "@babel/plugin-transform-template-literals" "^7.14.5"
+    "@babel/plugin-transform-typeof-symbol" "^7.14.5"
+    "@babel/plugin-transform-unicode-escapes" "^7.14.5"
+    "@babel/plugin-transform-unicode-regex" "^7.14.5"
+    "@babel/preset-modules" "^0.1.4"
+    "@babel/types" "^7.14.5"
+    babel-plugin-polyfill-corejs2 "^0.2.2"
+    babel-plugin-polyfill-corejs3 "^0.2.2"
+    babel-plugin-polyfill-regenerator "^0.2.2"
+    core-js-compat "^3.15.0"
+    semver "^6.3.0"
 
 "@babel/preset-env@~7.12.13":
   version "7.12.17"
@@ -933,7 +1070,7 @@
     "@babel/helper-validator-option" "^7.14.5"
     "@babel/plugin-transform-flow-strip-types" "^7.14.5"
 
-"@babel/preset-modules@^0.1.3":
+"@babel/preset-modules@^0.1.3", "@babel/preset-modules@^0.1.4":
   version "0.1.4"
   resolved "https://registry.nlark.com/@babel/preset-modules/download/@babel/preset-modules-0.1.4.tgz#362f2b68c662842970fdb5e254ffc8fc1c2e415e"
   integrity sha1-Ni8raMZihClw/bXiVP/I/BwuQV4=
@@ -973,7 +1110,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.16"
 
-"@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.14.6"
   resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.14.6.tgz?cache=0&sync_timestamp=1623708023742&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   integrity sha1-U1IDvAiS78fexgvcJ7Ls9uQJBi0=
@@ -1067,10 +1204,53 @@
     xcode "^3.0.1"
     xml2js "^0.4.23"
 
+"@expo/config-plugins@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/@expo/config-plugins/download/@expo/config-plugins-3.0.1.tgz#20de49d7ceea0e8318a755159496a89c4b8fcc0d"
+  integrity sha1-IN5J187qDoMYp1UVlJaonEuPzA0=
+  dependencies:
+    "@expo/config-types" "^41.0.0"
+    "@expo/json-file" "8.2.30"
+    "@expo/plist" "0.0.13"
+    debug "^4.3.1"
+    find-up "~5.0.0"
+    fs-extra "9.0.0"
+    getenv "^1.0.0"
+    glob "7.1.6"
+    resolve-from "^5.0.0"
+    slash "^3.0.0"
+    xcode "^3.0.1"
+    xml2js "^0.4.23"
+
 "@expo/config-types@^40.0.0-beta.2":
   version "40.0.0-beta.2"
   resolved "https://registry.nlark.com/@expo/config-types/download/@expo/config-types-40.0.0-beta.2.tgz#4fea4ef5654d02218b02b0b3772529a9ce5b0471"
   integrity sha1-T+pO9WVNAiGLArCzdyUpqc5bBHE=
+
+"@expo/config-types@^41.0.0":
+  version "41.0.0"
+  resolved "https://registry.nlark.com/@expo/config-types/download/@expo/config-types-41.0.0.tgz#ffe1444c6c26e0e3a8f7149b4afe486e357536d1"
+  integrity sha1-/+FETGwm4OOo9xSbSv5IbjV1NtE=
+
+"@expo/config@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.nlark.com/@expo/config/download/@expo/config-5.0.1.tgz#845b2d87bb360bac3e578fa629b68f10377f2005"
+  integrity sha1-hFsth7s2C6w+V4+mKbaPEDd/IAU=
+  dependencies:
+    "@babel/core" "7.9.0"
+    "@babel/plugin-proposal-class-properties" "~7.12.13"
+    "@babel/preset-env" "~7.12.13"
+    "@babel/preset-typescript" "~7.12.13"
+    "@expo/config-plugins" "3.0.1"
+    "@expo/config-types" "^41.0.0"
+    "@expo/json-file" "8.2.30"
+    fs-extra "9.0.0"
+    getenv "^1.0.0"
+    glob "7.1.6"
+    require-from-string "^2.0.2"
+    resolve-from "^5.0.0"
+    semver "7.3.2"
+    slugify "^1.3.4"
 
 "@expo/config@^3.3.35":
   version "3.3.43"
@@ -1133,6 +1313,16 @@
     json5 "^1.0.1"
     write-file-atomic "^2.3.0"
 
+"@expo/metro-config@^0.1.63":
+  version "0.1.76"
+  resolved "https://registry.nlark.com/@expo/metro-config/download/@expo/metro-config-0.1.76.tgz#b54cf4372bf8df74b3c6e259186169ee83f78639"
+  integrity sha1-tUz0Nyv433SzxuJZGGFp7oP3hjk=
+  dependencies:
+    "@expo/config" "5.0.1"
+    chalk "^4.1.0"
+    getenv "^1.0.0"
+    metro-react-native-babel-transformer "^0.59.0"
+
 "@expo/plist@0.0.13":
   version "0.0.13"
   resolved "https://registry.nlark.com/@expo/plist/download/@expo/plist-0.0.13.tgz#700a48d9927aa2b0257c613e13454164e7371a96"
@@ -1149,7 +1339,7 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@expo/vector-icons@^12.0.5":
+"@expo/vector-icons@^12.0.4", "@expo/vector-icons@^12.0.5":
   version "12.0.5"
   resolved "https://registry.nlark.com/@expo/vector-icons/download/@expo/vector-icons-12.0.5.tgz#bc508ad05fb7e9a3e008704977cfec6c18aa7728"
   integrity sha1-vFCK0F+36aPgCHBJd8/sbBiqdyg=
@@ -2550,6 +2740,17 @@ babel-plugin-jest-hoist@^26.6.2:
     "@types/babel__core" "^7.0.0"
     "@types/babel__traverse" "^7.0.6"
 
+babel-plugin-module-resolver@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npm.taobao.org/babel-plugin-module-resolver/download/babel-plugin-module-resolver-3.2.0.tgz?cache=0&sync_timestamp=1608044011972&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-plugin-module-resolver%2Fdownload%2Fbabel-plugin-module-resolver-3.2.0.tgz#ddfa5e301e3b9aa12d852a9979f18b37881ff5a7"
+  integrity sha1-3fpeMB47mqEthSqZefGLN4gf9ac=
+  dependencies:
+    find-babel-config "^1.1.0"
+    glob "^7.1.2"
+    pkg-up "^2.0.0"
+    reselect "^3.0.1"
+    resolve "^1.4.0"
+
 babel-plugin-polyfill-corejs2@^0.2.2:
   version "0.2.2"
   resolved "https://registry.nlark.com/babel-plugin-polyfill-corejs2/download/babel-plugin-polyfill-corejs2-0.2.2.tgz?cache=0&sync_timestamp=1622023848590&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-polyfill-corejs2%2Fdownload%2Fbabel-plugin-polyfill-corejs2-0.2.2.tgz#e9124785e6fd94f94b618a7954e5693053bf5327"
@@ -2573,6 +2774,11 @@ babel-plugin-polyfill-regenerator@^0.2.2:
   integrity sha1-sxDI1kKsraNIwfo7Pmzg6FG+4Hc=
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
+
+babel-plugin-react-native-web@~0.13.6:
+  version "0.13.18"
+  resolved "https://registry.nlark.com/babel-plugin-react-native-web/download/babel-plugin-react-native-web-0.13.18.tgz#f0b640412b81acd02d8036b7a935ffb3ab446e4e"
+  integrity sha1-8LZAQSuBrNAtgDa3qTX/s6tEbk4=
 
 babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
   version "7.0.0-beta.0"
@@ -2605,6 +2811,17 @@ babel-preset-current-node-syntax@^1.0.0:
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-syntax-top-level-await" "^7.8.3"
+
+babel-preset-expo@~8.3.0:
+  version "8.3.0"
+  resolved "https://registry.nlark.com/babel-preset-expo/download/babel-preset-expo-8.3.0.tgz#d77065f6e079a64de6e6830e58770fdb9b3240fa"
+  integrity sha1-13Bl9uB5pk3m5oMOWHcP25syQPo=
+  dependencies:
+    "@babel/plugin-proposal-decorators" "^7.6.0"
+    "@babel/preset-env" "^7.6.3"
+    babel-plugin-module-resolver "^3.2.0"
+    babel-plugin-react-native-web "~0.13.6"
+    metro-react-native-babel-preset "~0.59.0"
 
 babel-preset-fbjs@^3.3.0:
   version "3.4.0"
@@ -2911,7 +3128,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.1"
   resolved "https://registry.nlark.com/chalk/download/chalk-4.1.1.tgz?cache=0&sync_timestamp=1618995355917&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchalk%2Fdownload%2Fchalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha1-yAs/qyi/Y3HmhjMl7uZ+YYt35q0=
@@ -3182,7 +3399,7 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.nlark.com/copy-descriptor/download/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js-compat@^3.14.0, core-js-compat@^3.8.0:
+core-js-compat@^3.14.0, core-js-compat@^3.15.0, core-js-compat@^3.8.0:
   version "3.15.1"
   resolved "https://registry.nlark.com/core-js-compat/download/core-js-compat-3.15.1.tgz#1afe233716d37ee021956ef097594071b2b585a7"
   integrity sha1-Gv4jNxbTfuAhlW7wl1lAcbK1hac=
@@ -3323,7 +3540,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
+debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.1"
   resolved "https://registry.npm.taobao.org/debug/download/debug-4.3.1.tgz?cache=0&sync_timestamp=1607566580543&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha1-8NIpxQXgxtjEmsVT0bE9wYP2su4=
@@ -3887,6 +4104,11 @@ expect@^26.6.2:
     jest-message-util "^26.6.2"
     jest-regex-util "^26.0.0"
 
+expo-application@~3.1.2:
+  version "3.1.2"
+  resolved "https://registry.nlark.com/expo-application/download/expo-application-3.1.2.tgz#7c93e8108a7f2a0be0afe37151f36c98e0111e7c"
+  integrity sha1-fJPoEIp/Kgvgr+NxUfNsmOARHnw=
+
 expo-asset@^8.3.2, expo-asset@~8.3.1:
   version "8.3.2"
   resolved "https://registry.nlark.com/expo-asset/download/expo-asset-8.3.2.tgz#930de93d3db5bbbe3b19b315b7341b938581722e"
@@ -3906,6 +4128,11 @@ expo-constants@~10.1.3:
     "@expo/config" "^3.3.35"
     uuid "^3.3.2"
 
+expo-error-recovery@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.nlark.com/expo-error-recovery/download/expo-error-recovery-2.1.0.tgz#7baf6cabc53162cdd2b36edb20b8aa6d1cdc1107"
+  integrity sha1-e69sq8UxYs3Ss27bILiqbRzcEQc=
+
 expo-file-system@^11.0.2, expo-file-system@~11.0.2:
   version "11.0.2"
   resolved "https://registry.nlark.com/expo-file-system/download/expo-file-system-11.0.2.tgz#c3f9b9c6ba25456a0d32c7a9bb38e55310d471bd"
@@ -3914,7 +4141,7 @@ expo-file-system@^11.0.2, expo-file-system@~11.0.2:
     "@expo/config-plugins" "^1.0.18"
     uuid "^3.4.0"
 
-expo-font@^9.1.0:
+expo-font@^9.1.0, expo-font@~9.1.0:
   version "9.1.0"
   resolved "https://registry.nlark.com/expo-font/download/expo-font-9.1.0.tgz#4ada35c2aebfd549a8b58c4c33a23702eba24faf"
   integrity sha1-Sto1wq6/1UmotYxMM6I3AuuiT68=
@@ -3926,10 +4153,42 @@ expo-image-loader@~2.1.1:
   resolved "https://registry.nlark.com/expo-image-loader/download/expo-image-loader-2.1.1.tgz#028ae58f7c7a33ca9a406716c2b31969216d016f"
   integrity sha1-Aorlj3x6M8qaQGcWwrMZaSFtAW8=
 
+expo-keep-awake@~9.1.2:
+  version "9.1.2"
+  resolved "https://registry.nlark.com/expo-keep-awake/download/expo-keep-awake-9.1.2.tgz#b3e52c7bef0ade975ae88637a2bf980f6b573368"
+  integrity sha1-s+Use+8K3pda6IY3or+YD2tXM2g=
+
 expo-permissions@~12.0.1:
   version "12.0.1"
   resolved "https://registry.nlark.com/expo-permissions/download/expo-permissions-12.0.1.tgz?cache=0&sync_timestamp=1624322450939&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fexpo-permissions%2Fdownload%2Fexpo-permissions-12.0.1.tgz#5163c00d991bf565bf987354611628c298ddd0c4"
   integrity sha1-UWPADZkb9WW/mHNUYRYowpjd0MQ=
+
+expo@^41.0.1:
+  version "41.0.1"
+  resolved "https://registry.nlark.com/expo/download/expo-41.0.1.tgz#2689003212dcc948d010f86dadf055721a6314b4"
+  integrity sha1-JokAMhLcyUjQEPhtrfBVchpjFLQ=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    "@expo/metro-config" "^0.1.63"
+    "@expo/vector-icons" "^12.0.4"
+    "@unimodules/core" "~7.1.0"
+    "@unimodules/react-native-adapter" "~6.2.2"
+    babel-preset-expo "~8.3.0"
+    cross-spawn "^6.0.5"
+    expo-application "~3.1.2"
+    expo-asset "~8.3.1"
+    expo-constants "~10.1.3"
+    expo-error-recovery "~2.1.0"
+    expo-file-system "~11.0.2"
+    expo-font "~9.1.0"
+    expo-keep-awake "~9.1.2"
+    fbemitter "^2.1.1"
+    invariant "^2.2.2"
+    md5-file "^3.2.3"
+    pretty-format "^26.4.0"
+    react-native-safe-area-context "3.2.0"
+    serialize-error "^2.1.0"
+    uuid "^3.4.0"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -3996,12 +4255,19 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
+fbemitter@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npm.taobao.org/fbemitter/download/fbemitter-2.1.1.tgz#523e14fdaf5248805bb02f62efc33be703f51865"
+  integrity sha1-Uj4U/a9SSIBbsC9i78M75wP1GGU=
+  dependencies:
+    fbjs "^0.8.4"
+
 fbjs-css-vars@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/fbjs-css-vars/download/fbjs-css-vars-1.0.2.tgz#216551136ae02fe255932c3ec8775f18e2c078b8"
   integrity sha1-IWVRE2rgL+JVkyw+yHdfGOLAeLg=
 
-fbjs@^0.8.3:
+fbjs@^0.8.3, fbjs@^0.8.4:
   version "0.8.17"
   resolved "https://registry.npm.taobao.org/fbjs/download/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
@@ -4095,6 +4361,14 @@ finalhandler@1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
+find-babel-config@^1.1.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/find-babel-config/download/find-babel-config-1.2.0.tgz#a9b7b317eb5b9860cda9d54740a8c8337a2283a2"
+  integrity sha1-qbezF+tbmGDNqdVHQKjIM3oig6I=
+  dependencies:
+    json5 "^0.5.1"
+    path-exists "^3.0.0"
+
 find-cache-dir@^2.0.0:
   version "2.1.0"
   resolved "https://registry.nlark.com/find-cache-dir/download/find-cache-dir-2.1.0.tgz?cache=0&sync_timestamp=1618847023946&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffind-cache-dir%2Fdownload%2Ffind-cache-dir-2.1.0.tgz#8d0f94cd13fe43c6c7c261a0d86115ca918c05f7"
@@ -4104,7 +4378,7 @@ find-cache-dir@^2.0.0:
     make-dir "^2.0.0"
     pkg-dir "^3.0.0"
 
-find-up@^2.0.0:
+find-up@^2.0.0, find-up@^2.1.0:
   version "2.1.0"
   resolved "https://registry.nlark.com/find-up/download/find-up-2.1.0.tgz?cache=0&sync_timestamp=1618847130383&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffind-up%2Fdownload%2Ffind-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
   integrity sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
@@ -4648,7 +4922,7 @@ interpret@^1.0.0:
   resolved "https://registry.npm.taobao.org/interpret/download/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha1-Zlq4vE2iendKQFhOgS4+D6RbGh4=
 
-invariant@2.2.4, invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.nlark.com/invariant/download/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -5501,6 +5775,11 @@ json-stable-stringify-without-jsonify@^1.0.1:
   resolved "https://registry.nlark.com/json-stable-stringify-without-jsonify/download/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
 
+json5@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npm.taobao.org/json5/download/json5-0.5.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjson5%2Fdownload%2Fjson5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
+  integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
+
 json5@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/json5/download/json5-1.0.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjson5%2Fdownload%2Fjson5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
@@ -5891,6 +6170,14 @@ metro-babel-register@0.64.0:
     "@babel/register" "^7.0.0"
     escape-string-regexp "^1.0.5"
 
+metro-babel-transformer@0.59.0:
+  version "0.59.0"
+  resolved "https://registry.nlark.com/metro-babel-transformer/download/metro-babel-transformer-0.59.0.tgz#dda99c75d831b00142c42c020c51c103b29f199d"
+  integrity sha1-3amcddgxsAFCxCwCDFHBA7KfGZ0=
+  dependencies:
+    "@babel/core" "^7.0.0"
+    metro-source-map "0.59.0"
+
 metro-babel-transformer@0.64.0:
   version "0.64.0"
   resolved "https://registry.nlark.com/metro-babel-transformer/download/metro-babel-transformer-0.64.0.tgz#a21f8a989a5ea60c1109456e21bd4d9374194ea0"
@@ -5957,6 +6244,50 @@ metro-minify-uglify@0.64.0:
   dependencies:
     uglify-es "^3.1.9"
 
+metro-react-native-babel-preset@0.59.0, metro-react-native-babel-preset@~0.59.0:
+  version "0.59.0"
+  resolved "https://registry.nlark.com/metro-react-native-babel-preset/download/metro-react-native-babel-preset-0.59.0.tgz?cache=0&sync_timestamp=1618912827051&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmetro-react-native-babel-preset%2Fdownload%2Fmetro-react-native-babel-preset-0.59.0.tgz#20e020bc6ac9849e1477de1333d303ed42aba225"
+  integrity sha1-IOAgvGrJhJ4Ud94TM9MD7UKroiU=
+  dependencies:
+    "@babel/plugin-proposal-class-properties" "^7.0.0"
+    "@babel/plugin-proposal-export-default-from" "^7.0.0"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.0.0"
+    "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
+    "@babel/plugin-proposal-optional-catch-binding" "^7.0.0"
+    "@babel/plugin-proposal-optional-chaining" "^7.0.0"
+    "@babel/plugin-syntax-dynamic-import" "^7.0.0"
+    "@babel/plugin-syntax-export-default-from" "^7.0.0"
+    "@babel/plugin-syntax-flow" "^7.2.0"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.0.0"
+    "@babel/plugin-syntax-optional-chaining" "^7.0.0"
+    "@babel/plugin-transform-arrow-functions" "^7.0.0"
+    "@babel/plugin-transform-block-scoping" "^7.0.0"
+    "@babel/plugin-transform-classes" "^7.0.0"
+    "@babel/plugin-transform-computed-properties" "^7.0.0"
+    "@babel/plugin-transform-destructuring" "^7.0.0"
+    "@babel/plugin-transform-exponentiation-operator" "^7.0.0"
+    "@babel/plugin-transform-flow-strip-types" "^7.0.0"
+    "@babel/plugin-transform-for-of" "^7.0.0"
+    "@babel/plugin-transform-function-name" "^7.0.0"
+    "@babel/plugin-transform-literals" "^7.0.0"
+    "@babel/plugin-transform-modules-commonjs" "^7.0.0"
+    "@babel/plugin-transform-object-assign" "^7.0.0"
+    "@babel/plugin-transform-parameters" "^7.0.0"
+    "@babel/plugin-transform-react-display-name" "^7.0.0"
+    "@babel/plugin-transform-react-jsx" "^7.0.0"
+    "@babel/plugin-transform-react-jsx-self" "^7.0.0"
+    "@babel/plugin-transform-react-jsx-source" "^7.0.0"
+    "@babel/plugin-transform-regenerator" "^7.0.0"
+    "@babel/plugin-transform-runtime" "^7.0.0"
+    "@babel/plugin-transform-shorthand-properties" "^7.0.0"
+    "@babel/plugin-transform-spread" "^7.0.0"
+    "@babel/plugin-transform-sticky-regex" "^7.0.0"
+    "@babel/plugin-transform-template-literals" "^7.0.0"
+    "@babel/plugin-transform-typescript" "^7.5.0"
+    "@babel/plugin-transform-unicode-regex" "^7.0.0"
+    "@babel/template" "^7.0.0"
+    react-refresh "^0.4.0"
+
 metro-react-native-babel-preset@0.64.0, metro-react-native-babel-preset@^0.64.0:
   version "0.64.0"
   resolved "https://registry.nlark.com/metro-react-native-babel-preset/download/metro-react-native-babel-preset-0.64.0.tgz?cache=0&sync_timestamp=1618912827051&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmetro-react-native-babel-preset%2Fdownload%2Fmetro-react-native-babel-preset-0.64.0.tgz#76861408681dfda3c1d962eb31a8994918c976f8"
@@ -6014,6 +6345,17 @@ metro-react-native-babel-transformer@0.64.0, metro-react-native-babel-transforme
     metro-source-map "0.64.0"
     nullthrows "^1.1.1"
 
+metro-react-native-babel-transformer@^0.59.0:
+  version "0.59.0"
+  resolved "https://registry.nlark.com/metro-react-native-babel-transformer/download/metro-react-native-babel-transformer-0.59.0.tgz#9b3dfd6ad35c6ef37fc4ce4d20a2eb67fabbb4be"
+  integrity sha1-mz39atNcbvN/xM5NIKLrZ/q7tL4=
+  dependencies:
+    "@babel/core" "^7.0.0"
+    babel-preset-fbjs "^3.3.0"
+    metro-babel-transformer "0.59.0"
+    metro-react-native-babel-preset "0.59.0"
+    metro-source-map "0.59.0"
+
 metro-resolver@0.64.0, metro-resolver@^0.64.0:
   version "0.64.0"
   resolved "https://registry.nlark.com/metro-resolver/download/metro-resolver-0.64.0.tgz?cache=0&sync_timestamp=1618913442907&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmetro-resolver%2Fdownload%2Fmetro-resolver-0.64.0.tgz#21126b44f31346ac2ce0b06b77ef65e8c9e2294a"
@@ -6025,6 +6367,19 @@ metro-runtime@0.64.0, metro-runtime@^0.64.0:
   version "0.64.0"
   resolved "https://registry.nlark.com/metro-runtime/download/metro-runtime-0.64.0.tgz?cache=0&sync_timestamp=1618914545925&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmetro-runtime%2Fdownload%2Fmetro-runtime-0.64.0.tgz#cdaa1121d91041bf6345f2a69eb7c2fb289eff7b"
   integrity sha1-zaoRIdkQQb9jRfKmnrfC+yie/3s=
+
+metro-source-map@0.59.0:
+  version "0.59.0"
+  resolved "https://registry.nlark.com/metro-source-map/download/metro-source-map-0.59.0.tgz#e9beb9fc51bfb4e060f95820cf1508fc122d23f7"
+  integrity sha1-6b65/FG/tOBg+VggzxUI/BItI/c=
+  dependencies:
+    "@babel/traverse" "^7.0.0"
+    "@babel/types" "^7.0.0"
+    invariant "^2.2.4"
+    metro-symbolicate "0.59.0"
+    ob1 "0.59.0"
+    source-map "^0.5.6"
+    vlq "^1.0.0"
 
 metro-source-map@0.64.0:
   version "0.64.0"
@@ -6038,6 +6393,17 @@ metro-source-map@0.64.0:
     nullthrows "^1.1.1"
     ob1 "0.64.0"
     source-map "^0.5.6"
+    vlq "^1.0.0"
+
+metro-symbolicate@0.59.0:
+  version "0.59.0"
+  resolved "https://registry.nlark.com/metro-symbolicate/download/metro-symbolicate-0.59.0.tgz#fc7f93957a42b02c2bfc57ed1e8f393f5f636a54"
+  integrity sha1-/H+TlXpCsCwr/FftHo85P19jalQ=
+  dependencies:
+    invariant "^2.2.4"
+    metro-source-map "0.59.0"
+    source-map "^0.5.6"
+    through2 "^2.0.1"
     vlq "^1.0.0"
 
 metro-symbolicate@0.64.0:
@@ -6439,6 +6805,11 @@ nwsapi@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/nwsapi/download/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
   integrity sha1-IEh5qePQaP8qVROcLHcngGgaOLc=
+
+ob1@0.59.0:
+  version "0.59.0"
+  resolved "https://registry.nlark.com/ob1/download/ob1-0.59.0.tgz#ee103619ef5cb697f2866e3577da6f0ecd565a36"
+  integrity sha1-7hA2Ge9ctpfyhm41d9pvDs1WWjY=
 
 ob1@0.64.0:
   version "0.64.0"
@@ -6918,6 +7289,13 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+pkg-up@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/pkg-up/download/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"
+  integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
+  dependencies:
+    find-up "^2.1.0"
+
 plist@^3.0.1:
   version "3.0.2"
   resolved "https://registry.npm.taobao.org/plist/download/plist-3.0.2.tgz?cache=0&sync_timestamp=1616733409780&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fplist%2Fdownload%2Fplist-3.0.2.tgz#74bbf011124b90421c22d15779cee60060ba95bc"
@@ -6964,7 +7342,7 @@ prettier@^2.0.2:
   resolved "https://registry.nlark.com/prettier/download/prettier-2.3.1.tgz?cache=0&sync_timestamp=1622888668729&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fprettier%2Fdownload%2Fprettier-2.3.1.tgz#76903c3f8c4449bc9ac597acefa24dc5ad4cbea6"
   integrity sha1-dpA8P4xESbyaxZes76JNxa1MvqY=
 
-pretty-format@^26.0.1, pretty-format@^26.5.2, pretty-format@^26.6.2:
+pretty-format@^26.0.1, pretty-format@^26.4.0, pretty-format@^26.5.2, pretty-format@^26.6.2:
   version "26.6.2"
   resolved "https://registry.nlark.com/pretty-format/download/pretty-format-26.6.2.tgz?cache=0&sync_timestamp=1622290311384&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpretty-format%2Fdownload%2Fpretty-format-26.6.2.tgz#e35c2705f14cb7fe2fe94fa078345b444120fc93"
   integrity sha1-41wnBfFMt/4v6U+geDRbREEg/JM=
@@ -8013,6 +8391,11 @@ requires-port@^1.0.0:
   resolved "https://registry.nlark.com/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
+reselect@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/reselect/download/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
+  integrity sha1-79qpjqdFEyTQkrKyFjpqHXqaIUc=
+
 resolve-cwd@^3.0.0:
   version "3.0.0"
   resolved "https://registry.nlark.com/resolve-cwd/download/resolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
@@ -8040,7 +8423,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.npm.taobao.org/resolve-url/download/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.18.1, resolve@^1.3.2:
+resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.18.1, resolve@^1.3.2, resolve@^1.4.0:
   version "1.20.0"
   resolved "https://registry.nlark.com/resolve/download/resolve-1.20.0.tgz?cache=0&sync_timestamp=1618846903792&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fresolve%2Fdownload%2Fresolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=
