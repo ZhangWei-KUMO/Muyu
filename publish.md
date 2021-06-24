@@ -10,7 +10,10 @@ iOS应用的构建分为档案模式（expo build:ios -t archive）和模拟器�
 在构建之前我们需要在apple上注册开发者账户，在构建时Expo会要求进行填写。整个时长大约为20分钟左右，在打包成功后。
 我们首先将其上传到TestFlight做线上测试。
 
-点击编译成功后的下载链接，下载ipa软件。使用MacOS中Transport软件，将ipa软件上传至Apple Store Connect
+点击编译成功后的下载链接，下载ipa软件。使用MacOS中Transport软件，将ipa软件上传至[Apple Store Connect](https://appstoreconnect.apple.com/)。整个时间约10分钟。
+
+之后我们需要在App Store Connect中在TestFlight中提交Beta版本的测试信息。
+
 
 ## EAS Submit提交方式
 

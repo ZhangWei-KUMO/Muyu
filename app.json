@@ -2,8 +2,35 @@
   "expo": {
     "name": "Muyu",
     "slug": "muyu",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./resources/images/appstore.png",
+    "scheme": "wengeyi",
+    "splash": {
+      "image": "./resources/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.guild.deck",
+      "versionCode": 2
+    },
     "ios": {
-      "bundleIdentifier": "com.zwumark.muyu"
+      "bundleIdentifier": "com.zwumark.muyu",
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "buildNumber": "2"
     }
   },
   "name": "Muyu",
